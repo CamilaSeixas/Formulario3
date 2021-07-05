@@ -1,0 +1,103 @@
+<html>
+
+	<head>
+
+	<meta charset="UTF-7" />
+
+		<title>Formulários no HTML</title>
+
+		<LINK REL = "stylesheet" TYPE = "text/css" HREF = "Estilos.css" />
+
+	</head>
+
+	<body>
+	<!--h1-->
+
+	<form>
+
+	<H1> Formulário </H1>
+
+	<table width="50%"border=2>
+
+		<tr>
+			<td>Nome:</td>
+			<td><input type="text" name="nome" size="30" maxlenght="30" required></td>
+			<td rowspan="10">
+			<img src ="1.jpg" alt="foto" title="Foto" vspace="10px" hspace="10px" border="5px" align="right"/>
+
+		</tr>
+		<tr>
+
+			<td>Sexo:</td>
+			<td><input type="radio" name="Sexo" value="M" checked> Masculino
+				<input type="radio" name="Sexo" value="F" checked>Feminino
+				<input type="radio" name="Sexo" value="O" checked>Outro</td>
+		</tr>
+
+		<tr>
+
+			<td>Data de Nascimento:</td>
+			<td><input type="date" name="Data de Nascimento" min="1900-01-01"></td>
+		</tr>
+
+		<tr>
+			<td>CEP:</td>	
+			<td><input type="text" name="cep" size="5" maxlenght="5">-	
+				<input type="text" name="cep2"size="3" maxlenght="3"></td>
+
+		</tr>
+
+		<tr>
+
+			<td>Cidade:</td>
+			<td><input type="text" name ="Cidade"></td>
+
+		</tr>
+
+		<tr>
+			<td>Foto:</td>
+			<td><input type="file" name="img" multiple>
+
+		</tr>
+
+		<tr>
+			<td>E-mail:</td>
+			<td><input type="email" name="E-mail" autocomplete="off"></td>
+		</tr>
+
+		<tr>
+			<td>Senha:</td>
+			<td><input type="password" value=""></td>
+		</tr>
+
+
+		<tr>
+			<td>Comentários</td>
+			<td><textarea name="comentários" cols="30" rows="5">Digite aqui seus comentários!</textarea></td>
+		</tr>
+
+	</table> 
+
+		<input type="submit" value="Salvar">
+		<input type="reset" value="Limpar">
+		<input type="button" onclick="alert('Outro site:www.roubadordesucesso.com')" value="Click"><br>
+
+		<br>
+
+		<!--input type="image" src="imagem.png" alt="submit"-->
+
+		<embed src="Life Is Strange Before The Storm - Main Menu Song [OST].mp3" name="musica">
+
+	</form>
+
+<div class="box">
+
+</div>
+
+<div class="box linha-vertical">
+
+</div>
+
+
+	</body>
+</html>

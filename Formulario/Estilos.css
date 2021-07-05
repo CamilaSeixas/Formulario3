@@ -1,0 +1,42 @@
+body{
+	font-family: Arial;
+	/* background-color: Pink; */
+	background-image: url("2.jpg");
+	text-align: arial;	
+	/* color: Black; */
+	text-align: Center;
+	/* Teste */
+
+}
+
+/* 
+Define a formatação da tag TABLE 
+*/
+
+table{
+	text-align: left;
+}
+
+.box{
+	width: 50%;
+	float: left;
+	height: 300px; /* Altura da linha */
+}
+
+.linha-vertical{
+	border=left: 2px solid; /* Adiciona borda esquerda na div como se fosse uma linha */
+	box-sizing: Border-box;
+}
+
+
+hr{
+	border:1px dotted #ccc;
+}
+
+p{
+	margin-left: 20px
+	text-align: Center;
+	font-size: 40px;
+	font-family: Arial;
+	color: Black;
+}
